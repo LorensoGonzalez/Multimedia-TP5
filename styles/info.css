@@ -1,0 +1,13 @@
+a{
+    color: rgb(255, 86, 125);
+}
+
+/*-----HEADER-----*/
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar>a{
+    border-radius: 99px;
+}
