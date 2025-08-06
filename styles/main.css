@@ -1,0 +1,56 @@
+/*-----Tipografía-----*/
+@font-face {
+    font-family: "Pacifico";
+    src: url(../fonts/Pacifico.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(../fonts/Outfit.ttf) format('truetype');
+}
+
+/*-----MAIN-----*/
+body{
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    background-color: rgb(250, 219, 231);
+    color: rgb(76, 12, 45);
+    margin: 40px;
+    line-height: 1.4;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 64px;
+    margin: 0;
+    padding-right: 10px;
+}
+
+
+/*-----HEADER-----*/
+h2{
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+    margin: 0;
+    text-align: start;
+}
+.navbar>a{
+    display: flex;
+    border-style: solid;
+    border-color: rgb(250, 219, 231);
+    border-width: 4px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    transition-duration: 250ms;
+    z-index: 99;
+}
+.navbar>a:hover{background-color: rgb(255, 86, 125);}
+.navbar{
+    display: flex;
+    justify-content: end;
+    padding: 0;
+    z-index: 99;
+}
