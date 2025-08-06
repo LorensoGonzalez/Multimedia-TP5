@@ -6,6 +6,7 @@ body{
     color: rgb(76, 12, 45);
     margin: 40px;
     display: flex;
+    line-height: 1.4;
 }
 
 .lados{
@@ -37,10 +38,17 @@ body{
 
 /*izq*/
 .izq{text-align: end;}
-.izq>div>img{max-width: 20px;}
+.inf{
+    text-align: end;
+    line-height: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.izq>div>img{width: 28px;}
 h1{
     font-family: 'Pacifico', cursive;
-    font-size: 72px;
+    font-size: 64px;
     margin: 0;
     padding-right: 10px;
 }
@@ -49,6 +57,7 @@ h1{
 /*-----HEADER-----*/
 .header{height: 100%;}
 h2{
+    margin: 0;
     font-family: 'Pacifico', cursive;
     font-size: 28px;
     text-align: start;
