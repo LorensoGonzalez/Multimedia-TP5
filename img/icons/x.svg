@@ -11,38 +11,16 @@
    class="lucide lucide-x-icon lucide-x"
    version="1.1"
    id="svg2"
-   sodipodi:docname="x.svg"
-   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs2" />
-  <sodipodi:namedview
-     id="namedview2"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="12.433294"
-     inkscape:cx="11.903523"
-     inkscape:cy="15.764125"
-     inkscape:window-width="1176"
-     inkscape:window-height="1054"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg2" />
   <path
-     d="M18 6 6 18"
+     d="M 18,6 6,18"
      id="path1"
      style="stroke:#ffffff" />
   <path
-     d="m6 6 12 12"
+     d="M 6,6 18,18"
      id="path2"
      style="fill:#ffffff;stroke:#ffffff;stroke-opacity:1" />
 </svg>
