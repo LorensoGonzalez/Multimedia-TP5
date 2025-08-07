@@ -42,7 +42,7 @@ body{margin: 0;}
     max-height: calc(100vh - 294px);
     padding: 40px;
     gap: 20px;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .msj{
