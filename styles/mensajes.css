@@ -45,14 +45,14 @@ body{margin: 0;}
     overflow-y: scroll;
 }
 
-.msg{
+.msj{
     padding: 10px 20px;
     border-radius: 40px;
     width: fit-content;
 }
 
-.they{background-color: rgba(252, 0, 130, 0.3);}
-.u{background-color: rgb(255, 86, 125);color: white; align-self: flex-end;}
+.el{background-color: rgba(252, 0, 130, 0.3);}
+.tu{background-color: rgb(255, 86, 125);color: white; align-self: flex-end;}
 
 .elemento>img{
     border-radius: 99px;
