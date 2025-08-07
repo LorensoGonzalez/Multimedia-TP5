@@ -18,6 +18,7 @@ body{
     color: rgb(76, 12, 45);
     margin: 40px;
     line-height: 1.4;
+    scrollbar-color: rgb(255, 86, 125) rgba(250, 219, 231, 0);
 }
 
 a{color: rgb(255, 86, 125);}
@@ -50,7 +51,7 @@ h2{
     transition-duration: 250ms;
     z-index: 99;
 }
-.navbar>a:hover{background-color: rgb(255, 86, 125);}
+.navbar>a:hover{background-color: rgba(252, 0, 130, 0.3);}
 .navbar{
     display: flex;
     justify-content: end;
@@ -59,3 +60,12 @@ h2{
 }
 
 img{object-fit: cover;}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+}
