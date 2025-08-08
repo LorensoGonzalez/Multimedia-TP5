@@ -90,8 +90,11 @@ h1{padding: 0;}
     align-items: center;
     gap: 10px;
     align-self: center;
+    width: 100%;
     max-width: 450px;
 }
+
+.slider{width: 100%;}
 
 input[type="range"]{
     accent-color: rgb(252, 0, 130);
