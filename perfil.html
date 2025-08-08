@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de esta página</title>
+    <link rel="stylesheet" href="styles/main-excepto_home.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/first_setup.css">
+    <link rel="stylesheet" href="styles/perfil.css">
+</head>
+<body>
+    <div class="header">
+        <h2>Nombre de la página</h2>
+        <div class="navbar">
+            <a href="template.html"><img src="img/icons/arrow-left.svg"></a>
+        </div>
+    </div>
+    <div class="cont">
+        <h1>Configuración</h1>
+        <div class="row" style="gap: -40px;">
+            <div class="col">
+                <h3>Nombre y apellido:</h3>
+                <input type="text" placeholder="Tu nombre y apellido">
+
+                <h3>Descripción del perfil:</h3>
+                <textarea placeholder="Tu descripción"></textarea>
+
+            </div>
+            <div class="col">
+                <h3>Edad:</h3>
+                <input type="number" placeholder="Tu edad" min="18" max="100">
+
+                <h3>Género:</h3>
+                <div class="chooser">
+                    <div class="chooser_opt" title="Hombre"><img src="img/icons/mars.svg" alt=""></div>
+                    <div class="chooser_opt" title="Mujer"><img src="img/icons/venus.svg" alt=""></div>
+                    <div class="chooser_opt" title="No binario"><img src="img/icons/non-binary.svg" alt=""></div>
+                </div>
+
+                <h3>Interes:</h3>
+                <div class="chooser">
+                    <div class="chooser_opt" title="Hombre"><img src="img/icons/mars.svg" alt=""></div>
+                    <div class="chooser_opt" title="Mujer"><img src="img/icons/venus.svg" alt=""></div>
+                    <div class="chooser_opt" title="No binario"><img src="img/icons/non-binary.svg" alt=""></div>
+                </div>
+                <h3>Rango de edad:</h3>
+                <div class="rango">
+                    <div class="slider">
+                        <input type="range" list="values" value="0">
+                        <datalist id="values">
+                            <option value="0" label="18"></option>
+                            <option value="25" label="30"></option>
+                            <option value="50" label="40"></option>
+                            <option value="75" label="50"></option>
+                            <option value="100" label="60+"></option>
+                        </datalist>
+                    </div>
+                    - 
+                    <div class="slider">
+                        <input type="range" list="values" value="20">
+                        <datalist id="values" value="20">
+                            <option value="0" label="18"></option>
+                            <option value="25" label="30"></option>
+                            <option value="50" label="40"></option>
+                            <option value="75" label="50"></option>
+                            <option value="100" label="60+"></option>
+                        </datalist>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col img_col">
+                <div class="example_pic pic_3">
+                    <img src="img/ejemplos/ejemplo3.jpg">
+                </div>
+                <div class="example_pic pic_2">
+                    <img src="img/ejemplos/ejemplo2.jpg">
+                </div>
+                <div class="example_pic pic_1">
+                    <img src="img/ejemplos/ejemplo0.jpg">
+                </div>
+                <div class="example_pic pic_4">
+                    <img src="img/ejemplos/ejemplo1.jpg">
+                </div>
+                <div class="example_pic pic_5">
+                    <img src="img/ejemplos/ejemplo4.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

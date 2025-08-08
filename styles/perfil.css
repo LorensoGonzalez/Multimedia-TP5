@@ -1,0 +1,63 @@
+.example_pic>img{
+    width: 300px;
+    height: 300px;
+}
+.example_pic>div>img{
+    width: 300px;
+    height: 300px;
+}
+.example_pic{
+    width: 300px;
+    height: 300px;
+}
+
+.pic_1{transform: rotate(5deg);}
+.pic_1:hover{transform: rotate(-2deg) scale(1.1); z-index: 99;}
+
+.pic_2{transform: rotate(-3deg);}
+.pic_2:hover{transform: rotate(2deg) scale(1.1); z-index: 99;}
+
+.pic_4{transform: rotate(2deg);}
+.pic_4:hover{transform: rotate(-4deg) scale(1.1); z-index: 99;}
+
+.pic_3{transform: rotate(2deg);}
+.pic_3:hover{transform: rotate(3deg) scale(1.1); z-index: 99;}
+
+.pic_5{transform: rotate(-1deg);}
+.pic_5:hover{transform: rotate(1deg) scale(1.1); z-index: 99;}
+
+h3{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+}
+h1{
+    text-align: left;
+    align-self: flex-start;
+    position: absolute;
+    top: 96px;
+    left: 40px;
+}
+
+input{font-size: 16px;}
+textarea{font-size: 16px;max-height: 210px;}
+
+.img_col{
+    padding-top: 70px;
+    justify-content: start;
+    max-height: calc(100vh - 166px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    align-items: center;
+}
+
+.cont{
+    display: flex;
+    gap: 20px;
+    min-height: calc(100vh - 96px);
+    max-height: calc(100vh - 96px);
+}
+body{margin-bottom: 0;}
