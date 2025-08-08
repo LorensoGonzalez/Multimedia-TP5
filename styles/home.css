@@ -43,6 +43,11 @@ body{display: flex;}
 /*-----HEADER-----*/
 .header>div{min-height: 56px;display: flex; align-items: center;}
 .header{height: 100%;}
+.navbar{
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
 
 
 /*-----BOTONES-----*/

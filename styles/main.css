@@ -54,9 +54,6 @@ h2{
 }
 .navbar>a:hover{background-color: rgba(252, 0, 130, 0.3);}
 .navbar{
-    position: absolute;
-    right: 40px;
-    top: 40px;
     display: flex;
     padding: 0;
     z-index: 99;
