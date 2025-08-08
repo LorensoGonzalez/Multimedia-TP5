@@ -50,13 +50,24 @@ h2{
     height: 48px;
     transition-duration: 250ms;
     z-index: 99;
+    border-radius: 99px;
 }
 .navbar>a:hover{background-color: rgba(252, 0, 130, 0.3);}
 .navbar{
+    position: absolute;
+    right: 40px;
+    top: 40px;
     display: flex;
-    justify-content: end;
     padding: 0;
     z-index: 99;
+    background-color: rgb(250, 219, 231);
+    width: fit-content;
+    justify-self: end;
+    border-radius: 99px;
+}
+.navbar:hover{
+    background-color: rgb(250, 219, 231);
+
 }
 
 img{object-fit: cover;}
