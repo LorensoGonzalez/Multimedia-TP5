@@ -8,6 +8,7 @@
 }
 
 .Continuar{
+    animation: constant-jump 2000ms cubic-bezier(0.86, 0, 0.07, 1) reverse both infinite;
     background-color: rgb(255, 86, 125) !important;
     color: white !important;
     padding: 0 20px;
@@ -21,7 +22,18 @@
     box-shadow: 0px 0px 40px rgba(252, 0, 130, 0.5);
     transform: scale(1.1)
 }
+@keyframes constant-jump {
+    0% {
+      transform: scale(1);
+    } 70% {
+      transform: scale(1);
+    } to {
+      transform: scale(1.1);
+    }
+}
+
 .Atras{
+    animation: none;
     background-color: white !important;
     color: rgb(76, 12, 45) !important;
     transition: all 250ms cubic-bezier(0.5, 0.5, 0.5, 0.5)
@@ -173,3 +185,5 @@ datalist {
 
 .pic_5{transform: rotate(-1deg) translate(-100px, 0); z-index: 95;}
 .pic_5:hover{transform: rotate(-1deg) scale(1.1) translate(-30px, 0);}
+
+
