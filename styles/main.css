@@ -62,12 +62,10 @@ h2{
     z-index: 99;
     background-color: rgb(250, 219, 231);
     width: fit-content;
-    justify-self: end;
     border-radius: 99px;
 }
 .navbar:hover{
     background-color: rgb(250, 219, 231);
-
 }
 
 img{object-fit: cover;}
