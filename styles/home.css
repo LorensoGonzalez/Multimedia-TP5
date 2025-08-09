@@ -1,13 +1,14 @@
 /*-----INICIO-----*/
-body{display: flex;}
+body{
+    display: flex;
+    overflow: hidden;
+}
 
 .lados{
     display: flex;
     flex-direction: column;
     height: calc(100vh - 80px);
     width: 100%;
-    overflow-x: hidden;
-    overflow-y: auto;
 }
 
 .mainimg{
@@ -22,6 +23,7 @@ body{display: flex;}
     overflow-y: hidden;
     margin-left: 20px;
     margin-right: 20px;
+    animation: slide 500ms cubic-bezier(0, 1, 0, 1);
 }
 .mainimg>img{
     height: 100%;
@@ -38,7 +40,15 @@ body{display: flex;}
     align-items: center;
 }
 .izq>div>img{width: 28px;}
+.informacion{animation: slide 500ms cubic-bezier(0, 1, 0, 1);}
 
+@keyframes slide {
+    from {
+        transform: translate(0,50vh);
+    } to {
+        transform: translate(0,0);
+    }
+}
 
 /*-----HEADER-----*/
 .header>div{min-height: 56px;display: flex; align-items: center;}

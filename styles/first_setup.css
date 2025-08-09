@@ -24,15 +24,15 @@
 }
 @keyframes constant-jump {
     from {
-      transform: scale(1.2);
+        transform: scale(1.2);
     } 10% {
-      transform: scale(1);
+        transform: scale(1);
     } 10.01% {
-      transform: scale(1.2);
+        transform: scale(1.2);
     } 20% {
-      transform: scale(1);
+        transform: scale(1);
     } to {
-      transform: scale(1);
+        transform: scale(1);
     }
 }
 
