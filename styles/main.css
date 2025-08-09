@@ -79,3 +79,19 @@ img{object-fit: cover;}
 .wrap{
     flex-wrap: wrap;
 }
+
+@keyframes slide-up {
+    from {
+        transform: translate(0,50vh);
+    } to {
+        transform: translate(0,0);
+    }
+}
+
+@keyframes slide-left {
+    from {
+        transform: translate(50vh,0);
+    } to {
+        transform: translate(0,0);
+    }
+}

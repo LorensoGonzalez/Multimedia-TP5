@@ -1,3 +1,4 @@
+body{overflow-x: hidden;}
 .cont{
     display: flex;
     flex-direction: column;
@@ -5,6 +6,7 @@
     width: 100%;
     justify-content: center;
     min-height: calc(100vh - 136px);
+    animation: slide-left 500ms cubic-bezier(0, 1, 0, 1);
 }
 
 .Continuar{

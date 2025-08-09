@@ -23,7 +23,7 @@ body{
     overflow-y: hidden;
     margin-left: 20px;
     margin-right: 20px;
-    animation: slide 500ms cubic-bezier(0, 1, 0, 1);
+    animation: slide-up 500ms cubic-bezier(0, 1, 0, 1);
 }
 .mainimg>img{
     height: 100%;
@@ -40,15 +40,7 @@ body{
     align-items: center;
 }
 .izq>div>img{width: 28px;}
-.informacion{animation: slide 500ms cubic-bezier(0, 1, 0, 1);}
-
-@keyframes slide {
-    from {
-        transform: translate(0,50vh);
-    } to {
-        transform: translate(0,0);
-    }
-}
+.informacion{animation: slide-up 500ms cubic-bezier(0, 1, 0, 1);}
 
 /*-----HEADER-----*/
 .header>div{min-height: 56px;display: flex; align-items: center;}
