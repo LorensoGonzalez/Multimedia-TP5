@@ -75,3 +75,7 @@ img{object-fit: cover;}
 .row{
     display: flex;
 }
+
+.wrap{
+    flex-wrap: wrap;
+}

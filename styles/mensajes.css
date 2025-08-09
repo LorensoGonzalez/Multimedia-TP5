@@ -80,8 +80,8 @@ body{margin: 0;}
     font-size: 16px;
 }
 
-.el{background-color: rgba(252, 0, 130, 0.3);}
-.tu{background-color: rgb(255, 86, 125);color: white; align-self: flex-end;}
+.el{background-color: rgba(252, 0, 130, 0.3); border-top-left-radius: 8px;}
+.tu{background-color: rgb(255, 86, 125); color: white; align-self: flex-end; border-bottom-right-radius: 8px;}
 
 
 .chat{

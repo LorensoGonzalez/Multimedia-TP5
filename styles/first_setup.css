@@ -49,9 +49,10 @@
 }
 
 input{
-    width: 100%;
-    max-width: 400px;
-    border-style: none;
+    accent-color: rgb(252, 0, 130);
+    width: calc(100% - 40px);
+    max-width: 450px;
+    border-width: 0;
     height: 48px;
     border-radius: 99px;
     padding: 0 20px;
@@ -61,11 +62,12 @@ input{
 }
 
 textarea{
+    accent-color: rgb(252, 0, 130);
     font-size: 20px;
     font-family: "Outfit", sans-serif;
-    width: 100%;
-    max-width: 400px;
-    border-style: none;
+    width: calc(100% - 40px);
+    max-width: 450px;
+    border-width: 0;
     height: 100%;
     border-radius: 24px;
     padding: 20px 20px;
@@ -85,7 +87,7 @@ h1{padding: 0;}
     display: flex;
     width: 100%;
     gap: 2px;
-    max-width: 440px;
+    max-width: 450px;
     overflow: hidden;
     border-radius: 99px;
 }
@@ -114,6 +116,7 @@ h1{padding: 0;}
 .slider{width: 100%;}
 
 input[type="range"]{
+    width: 100%;
     accent-color: rgb(252, 0, 130);
     height: 14px;
     margin: 0;
@@ -162,11 +165,11 @@ datalist {
 }
 
 .example_pic:hover{
-    transform: rotate(10deg) scale(1.1);
     box-shadow: 0px 0px 40px rgba(252, 0, 130, 0.5);
 }
 
 .pic_1_icon{
+    opacity: 0.6;
     width: 120px !important;
     height: 120px !important;
     position: absolute;
@@ -191,4 +194,10 @@ datalist {
 .pic_5{transform: rotate(-1deg) translate(-100px, 0); z-index: 95;}
 .pic_5:hover{transform: rotate(1deg) scale(1.1) translate(-30px, 0);}
 
-
+.img_row{
+    height: 550px;
+    align-items: center;
+    margin: -90px -40px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
