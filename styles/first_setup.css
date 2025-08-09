@@ -26,13 +26,15 @@ body{overflow-x: hidden;}
 }
 @keyframes constant-jump {
     from {
-        transform: scale(1.2);
-    } 10% {
         transform: scale(1);
-    } 10.01% {
-        transform: scale(1.2);
-    } 20% {
+    } 80% {
         transform: scale(1);
+    } 80.1% {
+        transform: scale(1.2);
+    } 90% {
+        transform: scale(1);
+    } 90.01% {
+        transform: scale(1.2);
     } to {
         transform: scale(1);
     }
