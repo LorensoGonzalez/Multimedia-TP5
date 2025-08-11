@@ -16,16 +16,16 @@
 .pic_1{transform: rotate(5deg); z-index: 0;}
 .pic_1:hover{transform: rotate(-2deg) scale(1.1); z-index: 120;}
 
-.pic_2{transform: rotate(-3deg); z-index: 0;}
+.pic_2{transform: rotate(-3deg); z-index: 20;}
 .pic_2:hover{transform: rotate(2deg) scale(1.1); z-index: 120;}
 
-.pic_4{transform: rotate(2deg); z-index: 0;}
+.pic_4{transform: rotate(2deg); z-index: 40;}
 .pic_4:hover{transform: rotate(-4deg) scale(1.1); z-index: 120;}
 
-.pic_3{transform: rotate(2deg); z-index: 0;}
+.pic_3{transform: rotate(2deg); z-index: 60;}
 .pic_3:hover{transform: rotate(3deg) scale(1.1); z-index: 120;}
 
-.pic_5{transform: rotate(-1deg); z-index: 0;}
+.pic_5{transform: rotate(-1deg); z-index: 80;}
 .pic_5:hover{transform: rotate(1deg) scale(1.1); z-index: 120;}
 
 h3{
