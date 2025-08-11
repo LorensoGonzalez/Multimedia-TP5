@@ -53,6 +53,7 @@ body{margin: 0;overflow-y: hidden;}
     border-radius: 99px;
     height: 48px;
     min-width: 48px;
+    max-width: 48px;
 }
 .chat_header>h3{
     margin: 0;
